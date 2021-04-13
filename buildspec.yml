@@ -19,6 +19,6 @@ phases:
     commands:
       - echo Build completed on `date`
 
-  artifacts:
-    files:
-      - build/libs/aws-*-all.jar
+artifacts:
+  files:
+    - build/libs/aws-*-all.jar
