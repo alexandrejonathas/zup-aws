@@ -4,11 +4,9 @@ phases:
   install:
     runtime-versions:
       java: corretto11
-      gradle: 6
 
   pre_build:
     commands:
-      - echo skipped on `date`
       - echo Versao do gradle
       - gradle -version
       - echo Java Version
