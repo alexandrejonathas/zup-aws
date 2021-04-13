@@ -10,6 +10,8 @@ phases:
       - echo skipped on `date`
       - echo Versao do gradle
       - gradle -version
+      - apt install gradle -y
+      - echo Versao do Gradle
 
   build:
     commands:
