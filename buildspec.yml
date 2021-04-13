@@ -4,6 +4,7 @@ phases:
   install:
     runtime-versions:
       java: corretto11
+      gradle: 6
 
   pre_build:
     commands:
