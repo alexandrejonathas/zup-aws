@@ -13,7 +13,7 @@ phases:
     commands:
       - echo Gradle Build on `date`
       - java -version
-      - gradle clean build
+      - gradle build
 
   post_build:
     commands:
