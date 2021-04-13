@@ -8,6 +8,8 @@ phases:
   pre_build:
     commands:
       - echo skipped on `date`
+      - echo Versao do gradle
+      - gradle -version
 
   build:
     commands:
